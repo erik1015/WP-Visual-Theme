@@ -1,0 +1,68 @@
+/* -- Style Settings for Custom Fonts (if available) -- */
+
+@import url(//fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic);
+
+h1,h2,h3,h4,h5,h6,h7,
+#sitetitle .title {
+	font-family:'Noticia Text', georgia, serif;
+	font-weight:bold;
+	line-height: 52px;
+	}
+
+h1 { font-size: 30px; letter-spacing:-1px; }
+h2,#sitetitle .title { font-size: 26px; letter-spacing:-1px; }
+h3 { font-size: 24px; letter-spacing:-1px; line-height:1.3em; }
+h4,h5,h6,h7 { font-size: 20px; letter-spacing:-1px; line-height:1.3em; }
+
+
+h1.post-title,
+h1.page-title,
+h1.archive-title {
+	font-size:30px;
+	}
+
+h2.post-title {
+	font-size: 26px;
+	}
+
+h2.feature-title, h3.widgettitle, h2.feat-title, .page-head h5  {
+	font-size: 18px; 
+	}
+
+h1.archive-title,
+h1.page-title {
+	margin-bottom:25px;
+	}
+
+body {
+	font-size:14px;
+	font-family:arial,sans-serif;
+	line-height:1.6em;
+	color:#555;
+	}
+
+.meta {
+	padding-top:5px;
+	font-size:12px;
+	line-height:1.5em;
+	margin-bottom:5px;
+	}
+
+#sidebar-narrow,
+#contentright, 
+#footer-widgets, 
+.meta, 
+p#breadcrumbs, 
+#topnav, 
+#alt-home-bottom, 
+.commentlist,
+.single .auth-bio,
+.navigation, ul#filter, 
+#commentform label,
+#commentform,
+.comments-number,
+.pings,
+#related {
+	font-size: 12px;
+	line-height: 1.55em;
+	}
